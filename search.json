@@ -10,7 +10,7 @@ layout: none
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | smartify }}",
-      "excerpt"  : "{{ post.content | strip_html | strip_newlines | smartify | truncatewords: 10}}"
+      "excerpt"  : "{{ post.content | strip_html | strip_newlines | smartify | truncatewords: 20 }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

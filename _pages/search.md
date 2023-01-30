@@ -17,7 +17,7 @@ permalink: /search
         json:'{{ site.baseurl }}/search.json',
         searchResultTemplate: '<div class="search-result-box"><a class="internal-link" href="{url}?query={query}" title="{desc}">{title}</a><br><div class="search-excerpt">{excerpt}</div></div>',
         // searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
+        noResultsText: '<div class="search-result-box">No results found</div>',
         limit: 10
     });
 </script>

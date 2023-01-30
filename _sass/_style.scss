@@ -131,6 +131,18 @@ nav {
   margin-bottom: 1em;
 }
 
+#search-input {
+  width: 100%;
+  background: $color-box-background;
+  border: 0px;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+#search-input:focus {
+  background: $color-primary;
+}
+
 code {
   background: #f5f5f5;
   padding: 0.1em 0.2em;
